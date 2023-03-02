@@ -44,7 +44,7 @@ class FoodOrder2 {
         } else {
             System.out.println("Rider: " + 30);
             System.out.println("Grab Panda: " + (foodTotal * 3) / 10);
-            System.out.println("Food Seller: " + (grandTotal - (20 + ((foodTotal * 3) / 10))));
+            System.out.println("Food Seller: " + (grandTotal - (30 + ((foodTotal * 3) / 10))));
         }
     }
 }
