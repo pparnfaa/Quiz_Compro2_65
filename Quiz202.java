@@ -17,7 +17,7 @@ public class Quiz202 {
 
             } else if (check == false) {
                 if ((int) c.charAt(i) < (int) 'A' || (int) c.charAt(i) > (int) 'z') {
-                    System.out.println("2");
+                    System.out.print("2");
                     count_num++;
                 } else {
                     System.out.print("0");
